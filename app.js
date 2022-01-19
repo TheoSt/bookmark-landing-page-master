@@ -41,12 +41,14 @@ menu_dropdown.addEventListener("click",function() {
     nav_menu.classList.toggle("show");
     main_logo.style.display = "none";
     this.style.display = "none";
+    document.body.style.overflow="hidden";
 });
 
 close_btn.addEventListener("click", function() {
     nav_menu.classList.toggle("show");
     main_logo.style.display = "block";
     menu_dropdown.style.display="block";
+    document.body.style.overflow="scroll";
 });
 
 tab_headings.forEach(t => t.addEventListener("click",function() {
