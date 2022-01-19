@@ -501,6 +501,19 @@ footer .nav-item:first-of-type {
     border-top:none;
 }
 
+footer .attribution {
+    color:white;
+    text-align: center;
+    font-size:0.7rem;
+    width:80%;
+    margin:0 auto;
+}
+
+.attribution a {
+    color:white;
+    text-decoration: none;
+}
+
 @media screen and (min-width:500px) and (max-width:900px)
 {
     .faq-question h4 {
